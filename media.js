@@ -14,16 +14,18 @@ resp1.innerText = `Média das Notas ${media.tofixed(2)}`
 
 
 
-if(media >= 7)
+if(media >= 7){
     resp2.innerText = `Parabéns ${nome}! Você foi aprovado(a)`
     resp2.style.color = "blue"
-  else if (media > =4) 
+} else if (media >=4) {
     resp2.innerText = `atenção ${nome}! Você está de exame`
     resp2.style.color = "green"
- else{
+} else{
     resp2.innerText = `Ops ${nome}! Você reprovado(a)`
     resp2.style.color = "red"
-    }
+  }
+})
+
 
 
 
