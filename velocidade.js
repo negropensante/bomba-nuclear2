@@ -16,6 +16,6 @@ else if(condutor <- leve)
 
 resp.innerText = "Situação: Multa Leve
 
-else {
+else { v
 
 resp.innerText = Multa grave
